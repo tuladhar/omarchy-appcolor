@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.tuladhar.appcolor",
+  "name": "App Colors",
+  "version": "1.0.0",
+  "author": "tuladhar",
+  "license": "MIT",
+  "description": "Colours each floating window's border and title bar from its app's icon, so you can tell windows apart at a glance.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "AppColor.qml"
+  },
+  "barWidget": {
+    "displayName": "App Colors",
+    "description": "Turn app-coloured floating window borders and title bars on or off.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
