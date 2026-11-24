@@ -2,6 +2,10 @@
 
 Colours each floating window's border and title bar from its app's icon, so a pile of floating windows is easy to tell apart at a glance: HubSpot orange, YouTube red, Files blue, a terminal running Claude Code in Claude's coral.
 
+[![Floating windows of Claude Code, Foot and Chrome, each with its own border and title bar colour](assets/demo.gif)](assets/demo.mp4)
+
+_Click for the full-quality video._
+
 Each app gets one solid colour in three matching shades:
 
 - **Focused border**: the app's colour, softened so it never glares.
