@@ -82,7 +82,7 @@ Disabling the plugin hands every border back to the theme.
   omarchy pkg add imagemagick
   ```
 
-  This installs Arch's `imagemagick` package, the same as `sudo pacman -S imagemagick`. Check it with `magick -version`. Without it, the plugin shows a notification saying what to install and leaves borders alone.
+  Check it with `magick -version`. Without it, the plugin shows a notification saying what to install and leaves borders alone.
 
 ## License
 
