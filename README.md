@@ -17,7 +17,7 @@ Tiled windows keep your theme's border. Turn it on and off from the palette butt
 ## Install
 
 ```bash
-omarchy pkg add imagemagick   # reads the icons; Omarchy doesn't install it
+omarchy pkg add imagemagick   # reads the icons; see Requirements
 omarchy plugin add https://github.com/tuladhar/omarchy-appcolor.git --enable
 ```
 
@@ -75,7 +75,14 @@ Disabling the plugin hands every border back to the theme.
 
 ## Requirements
 
-Omarchy with Hyprland 0.56 or newer, and ImageMagick.
+- Omarchy with Hyprland 0.56 or newer.
+- ImageMagick, which reads the app icons. Omarchy doesn't include it. Install it with:
+
+  ```bash
+  omarchy pkg add imagemagick
+  ```
+
+  This installs Arch's `imagemagick` package, the same as `sudo pacman -S imagemagick`. Check it with `magick -version`. Without it, the plugin shows a notification saying what to install and leaves borders alone.
 
 ## License
 
