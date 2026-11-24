@@ -21,7 +21,15 @@ omarchy pkg add imagemagick   # reads the icons; Omarchy doesn't install it
 omarchy plugin add https://github.com/tuladhar/omarchy-appcolor.git --enable
 ```
 
-Nothing else to set up: the plugin loads its Hyprland part itself, so `hyprland.lua` needs no changes.
+Nothing else to set up: the plugin loads its Hyprland part itself, so `hyprland.lua` needs no changes. It never edits your configuration; it adds `SUPER + ALT + B` while it runs.
+
+## Remove
+
+```bash
+omarchy plugin remove io.github.tuladhar.appcolor
+```
+
+Removing or disabling it hands every border and title bar back to the theme straight away. The plugin keeps its colours in `~/.local/state/appcolor/` and downloaded icons in `~/.cache/appcolor/`; delete those too for a clean slate, along with `~/.config/appcolor/` if you made overrides.
 
 ## How it picks colours
 
